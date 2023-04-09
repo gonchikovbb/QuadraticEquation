@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/quadratic_equation/db" VERSION="20200213" COMMENT="XMLDB file for block_quadratic_equation"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+    <TABLES>
+        <TABLE NAME="values" COMMENT="a,b,c and x1,x2">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+                <FIELD NAME="a" TYPE="char" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="b" TYPE="char" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="c" TYPE="char" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="x1" TYPE="char" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="x2" TYPE="char" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+            </KEYS>
+        </TABLE>
+    </TABLES>
+</XMLDB>
