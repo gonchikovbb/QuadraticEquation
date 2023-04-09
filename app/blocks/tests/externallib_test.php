@@ -185,7 +185,7 @@ class externallib_test extends externallib_advanced_testcase {
             'nonscalar' => $nonscalar
         ];
         $block->instance_config_save((object) $configdata);
-        $filename = 'img.png';
+        $filename = 'formBlock.png';
         $filerecord = array(
             'contextid' => \context_block::instance($block->instance->id)->id,
             'component' => 'block_html',
